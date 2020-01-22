@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40431fe2bde751d9799d4fc622b9680c",
+    "content-hash": "f863b3927e6b3b6ff755aedc74796960",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -170,50 +170,6 @@
                 "tls"
             ],
             "time": "2018-03-29T19:57:20+00:00"
-        },
-        {
-            "name": "cweagans/composer-patches",
-            "version": "1.6.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "1d89dcc730e7f42426c434b88261fcfb3bce651e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/1d89dcc730e7f42426c434b88261fcfb3bce651e",
-                "reference": "1d89dcc730e7f42426c434b88261fcfb3bce651e",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "composer/composer": "~1.0",
-                "phpunit/phpunit": "~4.6"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "cweagans\\Composer\\Patches"
-            },
-            "autoload": {
-                "psr-4": {
-                    "cweagans\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Cameron Eagans",
-                    "email": "me@cweagans.net"
-                }
-            ],
-            "description": "Provides a way to patch Composer packages.",
-            "time": "2018-10-24T15:51:16+00:00"
         },
         {
             "name": "debril/feed-io",
@@ -647,8 +603,7 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.5.x-dev"
-                },
-                "patches_applied": []
+                }
             },
             "autoload": {
                 "psr-0": {
@@ -2873,11 +2828,6 @@
                 "twig/twig": "^1.0||^2.0"
             },
             "type": "symfony-bundle",
-            "extra": {
-                "patches_applied": {
-                    "Switch to supporting a separate configuration for the public search hostname": "patches/admin-bundle-public-search.patch"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Os2Display\\AdminBundle\\": ""
@@ -2925,16 +2875,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.1.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "e445ceb9bb86a66a30187111185e86b0dada14ad"
+                "reference": "b059e451ae114325ebd6d925cd2838498ea53aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/e445ceb9bb86a66a30187111185e86b0dada14ad",
-                "reference": "e445ceb9bb86a66a30187111185e86b0dada14ad",
+                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/b059e451ae114325ebd6d925cd2838498ea53aa7",
+                "reference": "b059e451ae114325ebd6d925cd2838498ea53aa7",
                 "shasum": ""
             },
             "require": {
@@ -2986,20 +2936,20 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "time": "2019-05-20T11:25:05+00:00"
+            "time": "2019-10-24T07:50:11+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
+                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/bee59b69cb9fc26b7783408ecba508ec48b52484",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484",
+                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
+                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3010,7 +2960,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "time": "2019-02-19T12:02:39+00:00"
+            "time": "2019-10-07T07:48:54+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3042,16 +2992,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.0.6",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e"
+                "reference": "f50c9b4b40afd5c0b63e6de18afe8f26db9379d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e",
-                "reference": "bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/f50c9b4b40afd5c0b63e6de18afe8f26db9379d9",
+                "reference": "f50c9b4b40afd5c0b63e6de18afe8f26db9379d9",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3065,7 +3015,7 @@
                 "MPL-2.0"
             ],
             "description": "Os2Display screen",
-            "time": "2019-05-20T11:18:14+00:00"
+            "time": "2019-10-24T12:55:39+00:00"
         },
         {
             "name": "paragonie/random_compat",
