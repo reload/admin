@@ -40,3 +40,4 @@ parameters:
     itk_log_log_to_console: true
     itk_log_log_level: all
     search_filter_default: all
+    fallback_image: assets/images/fallback_default.png
